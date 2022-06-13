@@ -1,0 +1,29 @@
+.banner {
+    background-color: gray;
+    margin: 0px;
+    border-radius: 6px;
+}
+.banner .links a {
+    display: inline-block;
+    width: 100px;
+    font-family: 'Source Code Pro', 'Courier New', monospace;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 2% 10%;
+
+}
+
+.banner .links a:visited {
+    color: white;
+}
+
+.banner .links a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 6px;
+}
