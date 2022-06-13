@@ -1,20 +1,27 @@
+html {
+    background-image: url('./images/new-background.jpg');
+    background-size: 100%;
+}
 .banner {
     background-color: gray;
     margin: 0px;
     border-radius: 6px;
+    opacity: 0.8;
+    min-width: 1200px;
 }
 .banner .links a {
     display: inline-block;
     width: 100px;
+    padding: 20px;
+    border: 1px solid transparent;
+    margin: 20px 10.94%;
+    border-radius: 6px;
     font-family: 'Source Code Pro', 'Courier New', monospace;
     text-align: center;
+    text-decoration: none;
     font-size: 18px;
-    background-color: black;
     color: white;
-    border-radius: 6px;
-    padding: 20px;
-    margin: 2% 10%;
-
+    background-color: black;
 }
 
 .banner .links a:visited {
@@ -23,7 +30,32 @@
 
 .banner .links a:hover {
     background-color: white;
+    padding: 20px;
     color: black;
     border: 1px solid white;
     border-radius: 6px;
+}
+
+.profile-pic {
+    display: block;
+    margin: auto;
+    width: 33%;
+    border-radius: 100px;
+}
+
+.statement {
+    font-family: 'Source Code Pro', 'Courier New', monospace;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 20%;
+    color: black;
+}
+
+.statement a:visited {
+    color: black;
+}
+
+.statement a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
 }
