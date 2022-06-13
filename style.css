@@ -7,14 +7,13 @@ html {
     margin: 0px;
     border-radius: 6px;
     opacity: 0.8;
-    min-width: 1200px;
+    width: 100%;
+    overflow: auto;
 }
 .banner .links a {
-    display: inline-block;
-    width: 100px;
-    padding: 20px;
+    width: 33.33%;
+    padding: 13.776%;
     border: 1px solid transparent;
-    margin: 20px 10.94%;
     border-radius: 6px;
     font-family: 'Source Code Pro', 'Courier New', monospace;
     text-align: center;
@@ -30,7 +29,7 @@ html {
 
 .banner .links a:hover {
     background-color: white;
-    padding: 20px;
+    padding: 13.776%;
     color: black;
     border: 1px solid white;
     border-radius: 6px;
