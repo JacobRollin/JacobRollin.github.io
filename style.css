@@ -57,6 +57,19 @@ html {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.contactForm {
+    color: black;
+    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactForm #textbox {
+    color: black;
+    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-size: 14px;
+}
+
 footer {
     color: black;
     font-family: 'Source Code Pro', 'Courier New', monospace;
