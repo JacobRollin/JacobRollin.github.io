@@ -3,35 +3,32 @@ html {
     background-size: 100%;
 }
 .banner {
-    display: block;
-    background-color: gray;
+    display: flex;
+    flex-flow: row;
     border-radius: 6px;
     opacity: 0.8;
     width: 100%;
     overflow: auto;
 }
-.banner .links a {
+.banner .links {
     width: 33.33%;
-    padding: 12.87455%;
+    flex: 1 1;
     border: 1px solid transparent;
     border-radius: 6px;
     font-family: 'Source Code Pro', 'Courier New', monospace;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
-    color: white;
-    background-color: black;
+    font-size: 32px;
 }
 
 .banner .links a:visited {
-    color: white;
+    color: black;
 }
 
 .banner .links a:hover {
-    background-color: white;
-    padding: 12.87455%;
-    color: black;
-    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
     border-radius: 6px;
 }
 
