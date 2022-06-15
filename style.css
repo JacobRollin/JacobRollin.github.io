@@ -15,7 +15,8 @@ html {
     flex: 1 1;
     border: 1px solid transparent;
     border-radius: 6px;
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    /*font-family: 'Source Code Pro', 'Courier New', monospace;*/
+    font-family: 'Exo 2', 'Arial', sans-serif;
     text-align: center;
     text-decoration: none;
     font-size: 32px;
@@ -41,7 +42,7 @@ html {
 }
 
 .statement {
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Exo 2', 'Arial', sans-serif;
     text-align: center;
     font-size: 18px;
     margin: 10px 20%;
@@ -59,7 +60,7 @@ html {
 
 .contactMessage {
     color: black;
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Exo 2', 'Arial', sans-serif;
     font-size: 18px;
     text-align: center;
     margin: auto 25%;
@@ -67,20 +68,20 @@ html {
 
 .contactForm {
     color: black;
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Exo 2', 'Arial', sans-serif;
     font-size: 18px;
     text-align: center;
 }
 
 .contactForm #textbox {
     color: black;
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Exo 2', 'Arial', sans-serif;
     font-size: 14px;
 }
 
 footer {
     color: black;
-    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-family: 'Exo 2', 'Arial', sans-serif;
     font-size: 14px;
     text-align: center;
 }
